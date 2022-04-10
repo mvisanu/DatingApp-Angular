@@ -10,7 +10,7 @@ export class UserService {
 
   //Http Client get method
 public getUsers(): Observable<any> {
-  const url = 'https://localhost:7192/api/Users';
+  const url = 'https://localhost:5002/api/Users';
   return this.http.get<any>(url);
 }
 }
