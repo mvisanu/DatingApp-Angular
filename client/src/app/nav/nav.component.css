@@ -1,3 +1,34 @@
 .dropdown-toggle, .dropdown-item {
     cursor: pointer;
 }
+
+.bg-dark {
+    background-color: #f3969a !important;
+}
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+/* .btn-outline-success {
+    color: #dd43be !important;
+    border-color: #821742 !important;
+}
+
+.btn, .btn:hover {
+    color: rgb(133, 84, 84) !important;
+} */
+
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
